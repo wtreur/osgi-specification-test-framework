@@ -29,4 +29,4 @@ A short overview of the project's code:
 Testing OSGi specification compliance
 -------------------------------------
 
-Use separete project [OSGi specification tests](https://github.com/wtreur/osgi-specification-tests)
+Use separate project [OSGi specification tests](https://github.com/wtreur/osgi-specification-tests)
