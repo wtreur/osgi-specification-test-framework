@@ -14,7 +14,7 @@
    See the License for the specific language governing permissions and
    limitations under the License.
  -->
-<project name="osgi-framework-tests" default="package">
+<project name="osgi-specification-test-framework" default="package">
 	
 	<property name="osgi-vendors" value="felix/1.8.0,felix/2.0.1" />
 	<property name="platform-def-dir" value="file:${basedir}/etc/platform-definitions" />
