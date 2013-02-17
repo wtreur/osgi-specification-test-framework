@@ -25,3 +25,8 @@ A short overview of the project's code:
     contains compile-time only dependencies
 *   `/var`<br />
     contains resources for creating the testreport
+
+Testing OSGi specification compliance
+-------------------------------------
+
+Use separete project [OSGi specification tests](https://github.com/wtreur/osgi-specification-tests)
