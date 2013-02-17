@@ -1,0 +1,1050 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<versions>
+    <version name="4.1" id="41">
+		<sections>
+		    <section id="12" number="2" name="Security Layer" parent="12">
+		        <sections>
+		            <section id="13" number="2.1" name="Introduction" parent="13">
+		                <sections>
+		                    <section id="14" number="2.1.1" name="Essentials" parent="14" />
+		                </sections>
+		            </section>
+		            <section id="15" number="2.2" name="Security Overview" parent="15">
+		                <sections>
+		                    <section id="16" number="2.2.1" name="Code Authentication" parent="16" />
+		                    <section id="17" number="2.2.2" name="Optional Security" parent="17" />
+		                </sections>
+		            </section>
+		            <section id="18" number="2.3" name="Digitally Signed JAR Files" parent="18">
+		                <sections>
+		                    <section id="19" number="2.3.1" name="JAR Structure and Manifest" parent="19" />
+		                    <section id="20" number="2.3.2" name="Java JAR File Restrictions" parent="20" />
+		                    <section id="21" number="2.3.3" name="Signing Algorithms" parent="21" />
+		                    <section id="22" number="2.3.4" name="Certificates" parent="22" />
+		                    <section id="23" number="2.3.5" name="Distinguished Names" parent="23" />
+		                    <section id="24" number="2.3.6" name="Certificate Matching" parent="24" />
+		                </sections>
+		            </section>
+		            <section id="25" number="2.4" name="References" parent="25" />
+		        </sections>
+		    </section>
+		    <section id="26" number="3" name="Module Layer" parent="26">
+		        <sections>
+		            <section id="27" number="3.1" name="Introduction" parent="27" />
+		            <section id="28" number="3.2" name="Bundles" parent="28">
+		                <sections>
+		                    <section id="29" number="3.2.1" name="Bundle Manifest Headers" parent="29" />
+		                    <section id="30" number="3.2.2" name="Header Value Syntax" parent="30" />
+		                    <section id="31" number="3.2.3" name="Common Header Syntax" parent="31" />
+		                    <section id="32" number="3.2.4" name="Version" parent="32" />
+		                    <section id="33" number="3.2.5" name="Version Ranges" parent="33" />
+		                    <section id="34" number="3.2.6" name="Filter Syntax" parent="34" />
+		                </sections>
+		            </section>
+		            <section id="35" number="3.3" name="Execution Environment" parent="35">
+		                <sections>
+		                    <section id="36" number="3.3.1" name="Naming of Execution Environments" parent="36" />
+		                </sections>
+		            </section>
+		            <section id="37" number="3.4" name="Class Loading Architecture" parent="37">
+		                <sections>
+		                    <section id="38" number="3.4.1" name="Resolving" parent="38" />
+		                </sections>
+		            </section>
+		            <section id="39" number="3.5" name="Resolving Metadata" parent="39">
+		                <sections>
+		                    <section id="40" number="3.5.1" name="Bundle-ManifestVersion" parent="40" />
+		                    <section id="41" number="3.5.2" name="Bundle-SymbolicName" parent="41" />
+		                    <section id="42" number="3.5.3" name="Bundle-Version" parent="42" />
+		                    <section id="43" number="3.5.4" name="Import-Package Header" parent="43" />
+		                    <section id="44" number="3.5.5" name="Export-Package" parent="44" />
+		                    <section id="45" number="3.5.6" name="Exporting and Importing a Package" parent="45" />
+		                    <section id="46" number="3.5.7" name="Interpretation of Legacy Bundles" parent="46" />
+		                </sections>
+		            </section>
+		            <section id="47" number="3.6" name="Constraint Solving" parent="47">
+		                <sections>
+		                    <section id="48" number="3.6.1" name="Diagrams and Syntax" parent="48" />
+		                    <section id="49" number="3.6.2" name="Version Matching" parent="49" />
+		                    <section id="50" number="3.6.3" name="Optional Packages" parent="50" />
+		                    <section id="51" number="3.6.4" name="Package Constraints" parent="51" />
+		                    <section id="52" number="3.6.5" name="Attribute Matching" parent="52" />
+		                    <section id="53" number="3.6.6" name="Mandatory Attributes" parent="53" />
+		                    <section id="54" number="3.6.7" name="Class Filtering" parent="54" />
+		                    <section id="55" number="3.6.8" name="Provider Selection" parent="55" />
+		                </sections>
+		            </section>
+		            <section id="56" number="3.7" name="Resolving Process" parent="56" />
+		            <section id="57" number="3.8" name="Runtime Class Loading" parent="57">
+		                <sections>
+		                    <section id="58" number="3.8.1" name="Bundle Class Path" parent="58" />
+		                    <section id="59" number="3.8.2" name="Dynamic Import Package" parent="59" />
+		                    <section id="60" number="3.8.3" name="Parent Delegation" parent="60" />
+		                    <section id="61" number="3.8.4" name="Overall Search Order" parent="61" />
+		                    <section id="62" number="3.8.5" name="Parent Class Loader" parent="62" />
+		                    <section id="63" number="3.8.6" name="Resource Loading" parent="63" />
+		                    <section id="64" number="3.8.7" name="Bundle Cycles" parent="64" />
+		                    <section id="65" number="3.8.8" name="Code Executed Before Started" parent="65" />
+		                </sections>
+		            </section>
+		            <section id="66" number="3.9" name="Loading Native Code Libraries" parent="66">
+		                <sections>
+		                    <section id="67" number="3.9.1" name="Native Code Algorithm" parent="67" />
+		                    <section id="68" number="3.9.2" name="Considerations Using Native Libraries" parent="68" />
+		                </sections>
+		            </section>
+		            <section id="69" number="3.10" name="Localization" parent="69">
+		                <sections>
+		                    <section id="70" number="3.10.1" name="Finding Localization Entries" parent="70" />
+		                    <section id="71" number="3.10.2" name="Manifest Localization" parent="71" />
+		                </sections>
+		            </section>
+		            <section id="72" number="3.11" name="Bundle Validity" parent="72" />
+		            <section id="73" number="3.12" name="Optional" parent="73" />
+		            <section id="74" number="3.13" name="Requiring Bundles" parent="74">
+		                <sections>
+		                    <section id="75" number="3.13.1" name="Require-Bundle" parent="75" />
+		                    <section id="76" number="3.13.2" name="Split Package Compatibility" parent="76" />
+		                    <section id="77" number="3.13.3" name="Issues With Requiring Bundles" parent="77" />
+		                </sections>
+		            </section>
+		            <section id="78" number="3.14" name="Fragment Bundles" parent="78">
+		                <sections>
+		                    <section id="79" number="3.14.1" name="Fragment-Host" parent="79" />
+		                    <section id="80" number="3.14.2" name="Fragments During Runtime" parent="80" />
+		                    <section id="81" number="3.14.3" name="Illegal Manifest Header for Fragment Bundles" parent="81" />
+		                </sections>
+		            </section>
+		            <section id="82" number="3.15" name="Extension Bundles" parent="82">
+		                <sections>
+		                    <section id="83" number="3.15.1" name="Illegal Manifest Headers for Extension Bundles" parent="83" />
+		                    <section id="84" number="3.15.2" name="Class Path Treatment" parent="84" />
+		                </sections>
+		            </section>
+		            <section id="85" number="3.16" name="Security" parent="85">
+		                <sections>
+		                    <section id="86" number="3.16.1" name="Extension Bundles" parent="86" />
+		                    <section id="87" number="3.16.2" name="Bundle Permission" parent="87" />
+		                    <section id="88" number="3.16.3" name="Package Permission" parent="88" />
+		                    <section id="89" number="3.16.4" name="Resource Permissions" parent="89" />
+		                    <section id="90" number="3.16.5" name="Permission Checks" parent="90" />
+		                </sections>
+		            </section>
+		            <section id="91" number="3.17" name="Changes 4.1" parent="91" />
+		            <section id="92" number="3.18" name="References" parent="92" />
+		        </sections>
+		    </section>
+		    <section id="93" number="4" name="Life Cycle Layer" parent="93">
+		        <sections>
+		            <section id="94" number="4.1" name="Introduction" parent="94">
+		                <sections>
+		                    <section id="95" number="4.1.1" name="Essentials" parent="95" />
+		                    <section id="96" number="4.1.2" name="Entities" parent="96" />
+		                </sections>
+		            </section>
+		            <section id="97" number="4.2" name="Bundles" parent="97" />
+		            <section id="98" number="4.3" name="The Bundle Object" parent="98">
+		                <sections>
+		                    <section id="99" number="4.3.1" name="Bundle Identifiers" parent="99" />
+		                    <section id="100" number="4.3.2" name="Bundle State" parent="100" />
+		                    <section id="101" number="4.3.3" name="Installing Bundles" parent="101" />
+		                    <section id="102" number="4.3.4" name="Resolving Bundles" parent="102" />
+		                    <section id="103" number="4.3.5" name="Starting Bundles" parent="103" />
+		                    <section id="104" number="4.3.6" name="Activation" parent="104" />
+		                    <section id="105" number="4.3.7" name="Activation Policies" parent="105" />
+		                    <section id="106" number="4.3.8" name="Stopping Bundles" parent="106" />
+		                    <section id="107" number="4.3.9" name="Deactivation" parent="107" />
+		                    <section id="108" number="4.3.10" name="Updating Bundles" parent="108" />
+		                    <section id="109" number="4.3.11" name="Uninstalling Bundles" parent="109" />
+		                    <section id="110" number="4.3.12" name="Detecting Bundle Changes" parent="110" />
+		                    <section id="111" number="4.3.13" name="Retrieving Manifest Headers" parent="111" />
+		                    <section id="112" number="4.3.14" name="Loading Classes" parent="112" />
+		                    <section id="113" number="4.3.15" name="Access to Resources" parent="113" />
+		                    <section id="114" number="4.3.16" name="Permissions of a Bundle" parent="114" />
+		                    <section id="115" number="4.3.17" name="Access to a Bundle’s Bundle Context" parent="115" />
+		                </sections>
+		            </section>
+		            <section id="116" number="4.4" name="The Bundle Context" parent="116">
+		                <sections>
+		                    <section id="117" number="4.4.1" name="Getting Bundle Information" parent="117" />
+		                    <section id="118" number="4.4.2" name="Persistent Storage" parent="118" />
+		                    <section id="119" number="4.4.3" name="Environment Properties" parent="119" />
+		                </sections>
+		            </section>
+		            <section id="120" number="4.5" name="The System Bundle" parent="120" />
+		            <section id="121" number="4.6" name="Events" parent="121">
+		                <sections>
+		                    <section id="122" number="4.6.1" name="Listeners" parent="122" />
+		                    <section id="123" number="4.6.2" name="Delivering Events" parent="123" />
+		                    <section id="124" number="4.6.3" name="Synchronization Pitfalls" parent="124" />
+		                </sections>
+		            </section>
+		            <section id="125" number="4.7" name="Framework Startup and Shutdown" parent="125">
+		                <sections>
+		                    <section id="126" number="4.7.1" name="Startup" parent="126" />
+		                    <section id="127" number="4.7.2" name="Shutdown" parent="127" />
+		                </sections>
+		            </section>
+		            <section id="128" number="4.8" name="Security" parent="128">
+		                <sections>
+		                    <section id="129" number="4.8.1" name="Admin Permission" parent="129" />
+		                    <section id="130" number="4.8.2" name="Using Signer for the Target" parent="130" />
+		                    <section id="131" number="4.8.3" name="Privileged Callbacks" parent="131" />
+		                    <section id="132" number="4.8.4" name="Lazy Activation" parent="132" />
+		                </sections>
+		            </section>
+		            <section id="133" number="4.9" name="Changes 4.1" parent="133" />
+		            <section id="134" number="4.10" name="References" parent="134" />
+		        </sections>
+		    </section>
+		    <section id="135" number="5" name="Service Layer" parent="135">
+		        <sections>
+		            <section id="136" number="5.1" name="Introduction" parent="136">
+		                <sections>
+		                    <section id="137" number="5.1.1" name="Essentials" parent="137" />
+		                    <section id="138" number="5.1.2" name="Entities" parent="138" />
+		                </sections>
+		            </section>
+		            <section id="139" number="5.2" name="Services" parent="139">
+		                <sections>
+		                    <section id="140" number="5.2.1" name="Service References" parent="140" />
+		                    <section id="141" number="5.2.2" name="Service Interfaces" parent="141" />
+		                    <section id="142" number="5.2.3" name="Registering Services" parent="142" />
+		                    <section id="143" number="5.2.4" name="Early Need for ServiceRegistration Object" parent="143" />
+		                    <section id="144" number="5.2.5" name="Service Properties" parent="144" />
+		                    <section id="145" number="5.2.6" name="Persistent Identifier (PID)" parent="145" />
+		                    <section id="146" number="5.2.7" name="Locating Services" parent="146" />
+		                    <section id="147" number="5.2.8" name="Getting Service Properties" parent="147" />
+		                    <section id="148" number="5.2.9" name="Getting Service Objects" parent="148" />
+		                    <section id="149" number="5.2.10" name="Information About Services" parent="149" />
+		                </sections>
+		            </section>
+		            <section id="150" number="5.3" name="Service Events" parent="150" />
+		            <section id="151" number="5.4" name="Stale References" parent="151" />
+		            <section id="152" number="5.5" name="Filters" parent="152" />
+		            <section id="153" number="5.6" name="Service Factory" parent="153" />
+		            <section id="154" number="5.7" name="Releasing Services" parent="154" />
+		            <section id="155" number="5.8" name="Unregistering Services" parent="155" />
+		            <section id="156" number="5.9"
+		                name="Multiple Version Export Considerations" parent="156">
+		                <sections>
+		                    <section id="157" number="5.9.1" name="Service Registry" parent="157" />
+		                    <section id="158" number="5.9.2" name="Service Events" parent="158" />
+		                </sections>
+		            </section>
+		            <section id="159" number="5.10" name="Security" parent="159">
+		                <sections>
+		                    <section id="160" number="5.10.1" name="Service Permission" parent="160" />
+		                </sections>
+		            </section>
+		            <section id="161" number="5.11" name="Changes 4.1" parent="161" />
+		        </sections>
+		    </section>
+		    <section id="162" number="6" name="Framework API" parent="162">
+		        <sections>
+		            <section id="163" number="6.1" name="org.osgi.framework" parent="163">
+		                <sections>
+		                    <section id="164" number="6.1.1" name="Summary" parent="164" />
+		                    <section id="165" number="6.1.2" name="public final class AdminPermission extends BasicPermission" parent="165" />
+		                    <section id="166" number="6.1.3" name="public interface AllServiceListener extends ServiceListener" parent="166" />
+		                    <section id="167" number="6.1.4" name="public interface Bundle" parent="167" />
+		                    <section id="168" number="6.1.5" name="public interface BundleActivator" parent="168" />
+		                    <section id="169" number="6.1.6" name="public interface BundleContext" parent="169" />
+		                    <section id="170" number="6.1.7" name="public class BundleEvent extends EventObject" parent="170" />
+		                    <section id="171" number="6.1.8" name="public class BundleException extends Exception" parent="171" />
+		                    <section id="172" number="6.1.9" name="public interface BundleListener extends EventListener" parent="172" />
+		                    <section id="173" number="6.1.10" name="public final class BundlePermission extends BasicPermission" parent="173" />
+		                    <section id="174" number="6.1.11" name="public interface Configurable" parent="174" />
+		                    <section id="175" number="6.1.12" name="public interface Constants" parent="175" />
+		                    <section id="176" number="6.1.13" name="public interface Filter" parent="176" />
+		                    <section id="177" number="6.1.14" name="public class FrameworkEvent extends EventObject" parent="177" />
+		                    <section id="178" number="6.1.15" name="public interface FrameworkListener extends EventListener" parent="178" />
+		                    <section id="179" number="6.1.16" name="public class FrameworkUtil" parent="179" />
+		                    <section id="180" number="6.1.17" name="public class InvalidSyntaxException extends Exception" parent="180" />
+		                    <section id="181" number="6.1.18" name="public final class PackagePermission extends BasicPermission" parent="181" />
+		                    <section id="182" number="6.1.19" name="public class ServiceEvent extends EventObject" parent="182" />
+		                    <section id="183" number="6.1.20" name="public interface ServiceFactory" parent="183" />
+		                    <section id="184" number="6.1.21" name="public interface ServiceListener extends EventListener" parent="184" />
+		                    <section id="185" number="6.1.22" name="public final class ServicePermission extends BasicPermission" parent="185" />
+		                    <section id="186" number="6.1.23" name="public interface ServiceReference extends Comparable" parent="186" />
+		                    <section id="187" number="6.1.24" name="public interface ServiceRegistration" parent="187" />
+		                    <section id="188" number="6.1.25" name="public interface SynchronousBundleListener extends BundleListener" parent="188" />
+		                    <section id="189" number="6.1.26" name="public class Version implements Comparable" parent="189" />
+		                </sections>
+		            </section>
+		        </sections>
+		    </section>
+		    <section id="190" number="7" name="Package Admin Service Specification"
+		        parent="190">
+		        <sections>
+		            <section id="191" number="7.1" name="Introduction" parent="191">
+		                <sections>
+		                    <section id="192" number="7.1.1" name="Essentials" parent="192" />
+		                    <section id="193" number="7.1.2" name="Entities" parent="193" />
+		                    <section id="194" number="7.1.3" name="Operation" parent="194" />
+		                </sections>
+		            </section>
+		            <section id="195" number="7.2" name="Package Admin" parent="195">
+		                <sections>
+		                    <section id="196" number="7.2.1" name="Package Sharing" parent="196" />
+		                    <section id="197" number="7.2.2" name="Bundle Information" parent="197" />
+		                    <section id="198" number="7.2.3" name="Fragments and Required Bundles" parent="198" />
+		                    <section id="199" number="7.2.4" name="Exported Package" parent="199" />
+		                    <section id="200" number="7.2.5" name="Refreshing Packages and Start Level Service" parent="200" />
+		                </sections>
+		            </section>
+		            <section id="201" number="7.3" name="Security" parent="201" />
+		            <section id="202" number="7.4" name="org.osgi.service.packageadmin" parent="202">
+		                <sections>
+		                    <section id="203" number="7.4.1" name="Summary" parent="203" />
+		                    <section id="204" number="7.4.2" name="public interface ExportedPackage" parent="204" />
+		                    <section id="205" number="7.4.3" name="public interface PackageAdmin" parent="205" />
+		                    <section id="206" number="7.4.4" name="public interface RequiredBundle" parent="206" />
+		                </sections>
+		            </section>
+		        </sections>
+		    </section>
+		    <section id="207" number="8" name="Start Level Service Specification"
+		        parent="207">
+		        <sections>
+		            <section id="208" number="8.1" name="Introduction" parent="208">
+		                <sections>
+		                    <section id="209" number="8.1.1" name="Essentials" parent="209" />
+		                    <section id="210" number="8.1.2" name="Entities" parent="210" />
+		                </sections>
+		            </section>
+		            <section id="211" number="8.2" name="Start Level Service" parent="211">
+		                <sections>
+		                    <section id="212" number="8.2.1" name="The Concept of a Start Level" parent="212" />
+		                    <section id="213" number="8.2.2" name="Changing the Active Start Level" parent="213" />
+		                    <section id="214" number="8.2.3" name="Startup Sequence" parent="214" />
+		                    <section id="215" number="8.2.4" name="Shutdown Sequence" parent="215" />
+		                    <section id="216" number="8.2.5" name="Changing a Bundle’s Start Level" parent="216" />
+		                    <section id="217" number="8.2.6" name="Starting a Bundle" parent="217" />
+		                    <section id="218" number="8.2.7" name="Exceptions in the Bundle Activator" parent="218" />
+		                    <section id="219" number="8.2.8" name="System Bundle" parent="219" />
+		                </sections>
+		            </section>
+		            <section id="220" number="8.3" name="Compatibility Mode" parent="220" />
+		            <section id="221" number="8.4" name="Example Applications" parent="221">
+		                <sections>
+		                    <section id="222" number="8.4.1" name="Safe Mode Startup Scheme" parent="222" />
+		                    <section id="223" number="8.4.2" name="Splash Screen Startup Scheme" parent="223" />
+		                </sections>
+		            </section>
+		            <section id="224" number="8.5" name="Security" parent="224" />
+		            <section id="225" number="8.6" name="Changes 4.1" parent="225" />
+		            <section id="226" number="8.7" name="org.osgi.service.startlevel" parent="226">
+		                <sections>
+		                    <section id="227" number="8.7.1" name="public interface StartLevel" parent="227" />
+		                </sections>
+		            </section>
+		        </sections>
+		    </section>
+		    <section id="228" number="9"
+		        name="Conditional Permission Admin Specification" parent="228">
+		        <sections>
+		            <section id="229" number="9.1" name="Introduction" parent="229">
+		                <sections>
+		                    <section id="230" number="9.1.1" name="Essentials" parent="230" />
+		                    <section id="231" number="9.1.2" name="Entities" parent="231" />
+		                    <section id="232" number="9.1.3" name="Synopsis" parent="232" />
+		                    <section id="233" number="9.1.4" name="What to Read" parent="233" />
+		                </sections>
+		            </section>
+		            <section id="234" number="9.2" name="Permission Management Model" parent="234">
+		                <sections>
+		                    <section id="235" number="9.2.1" name="Local Permissions" parent="235" />
+		                    <section id="236" number="9.2.2" name="Open Deployment Channels" parent="236" />
+		                    <section id="237" number="9.2.3" name="Delegation" parent="237" />
+		                    <section id="238" number="9.2.4" name="Grouping" parent="238" />
+		                    <section id="239" number="9.2.5" name="Typical Example" parent="239" />
+		                </sections>
+		            </section>
+		            <section id="240" number="9.3" name="Effective Permissions" parent="240" />
+		            <section id="241" number="9.4" name="Conditional Permissions" parent="241">
+		                <sections>
+		                    <section id="242" number="9.4.1" name="Encoding versus Instantiation" parent="242" />
+		                </sections>
+		            </section>
+		            <section id="243" number="9.5" name="The Permission Check" parent="243">
+		                <sections>
+		                    <section id="244" number="9.5.1" name="Check Permission Algorithm" parent="244" />
+		                    <section id="245" number="9.5.2" name="Example" parent="245" />
+		                    <section id="246" number="9.5.3" name="Using the Access Control Context Directly" parent="246" />
+		                    <section id="247" number="9.5.4" name="Optimizations" parent="247" />
+		                </sections>
+		            </section>
+		            <section id="248" number="9.6" name="Permission Management" parent="248">
+		                <sections>
+		                    <section id="249" number="9.6.1" name="Default Permissions" parent="249" />
+		                </sections>
+		            </section>
+		            <section id="250" number="9.7" name="Conditions" parent="250">
+		                <sections>
+		                    <section id="251" number="9.7.1" name="Custom Conditions" parent="251" />
+		                    <section id="252" number="9.7.2" name="Implementation Issues" parent="252" />
+		                </sections>
+		            </section>
+		            <section id="253" number="9.8" name="Standard Conditions" parent="253">
+		                <sections>
+		                    <section id="254" number="9.8.1" name="Bundle Signer Condition" parent="254" />
+		                    <section id="255" number="9.8.2" name="Bundle Location Condition" parent="255" />
+		                </sections>
+		            </section>
+		            <section id="256" number="9.9" name="Bundle Permission Resource" parent="256">
+		                <sections>
+		                    <section id="257" number="9.9.1" name="Removing the Bundle Permission Resource" parent="257" />
+		                </sections>
+		            </section>
+		            <section id="258" number="9.10" name="Relation to Permission Admin" parent="258" />
+		            <section id="259" number="9.11" name="Security" parent="259">
+		                <sections>
+		                    <section id="260" number="9.11.1" name="Service Registry Security" parent="260" />
+		                </sections>
+		            </section>
+		            <section id="261" number="9.12" name="org.osgi.service.condpermadmin" parent="261">
+		                <sections>
+		                    <section id="262" number="9.12.1" name="Summary" parent="262" />
+		                    <section id="263" number="9.12.2" name="public class BundleLocationCondition" parent="263" />
+		                    <section id="264" number="9.12.3" name="public class BundleSignerCondition" parent="264" />
+		                    <section id="265" number="9.12.4" name="public interface Condition" parent="265" />
+		                    <section id="266" number="9.12.5" name="public interface ConditionalPermissionAdmin" parent="266" />
+		                    <section id="267" number="9.12.6" name="public interface ConditionalPermissionInfo" parent="267" />
+		                    <section id="268" number="9.12.7" name="public class ConditionInfo" parent="268" />
+		                </sections>
+		            </section>
+		            <section id="269" number="9.13" name="References" parent="269" />
+		        </sections>
+		    </section>
+		    <section id="270" number="10"
+		        name="Permission Admin Service Specification" parent="270">
+		        <sections>
+		            <section id="271" number="10.1" name="Introduction" parent="271">
+		                <sections>
+		                    <section id="272" number="10.1.1" name="Essentials" parent="272" />
+		                    <section id="273" number="10.1.2" name="Entities" parent="273" />
+		                    <section id="274" number="10.1.3" name="Operation" parent="274" />
+		                </sections>
+		            </section>
+		            <section id="275" number="10.2" name="Permission Admin service" parent="275">
+		                <sections>
+		                    <section id="276" number="10.2.1" name="File Permission for Relative Path Names" parent="276" />
+		                </sections>
+		            </section>
+		            <section id="277" number="10.3" name="Security" parent="277" />
+		            <section id="278" number="10.4" name="org.osgi.service.permissionadmin" parent="278">
+		                <sections>
+		                    <section id="279" number="10.4.1" name="Summary" parent="279" />
+		                    <section id="280" number="10.4.2" name="public interface PermissionAdmin" parent="280" />
+		                    <section id="281" number="10.4.3" name="public class PermissionInfo" parent="281" />
+		                </sections>
+		            </section>
+		        </sections>
+		    </section>
+		    <section id="282" number="11" name="URL Handlers Service Specification"
+		        parent="282">
+		        <sections>
+		            <section id="283" number="11.1" name="Introduction" parent="283">
+		                <sections>
+		                    <section id="284" number="11.1.1" name="Essentials" parent="284" />
+		                    <section id="285" number="11.1.2" name="Entities" parent="285" />
+		                    <section id="286" number="11.1.3" name="Operation" parent="286" />
+		                </sections>
+		            </section>
+		            <section id="287" number="11.2" name="Factories in java.net" parent="287" />
+		            <section id="288" number="11.3" name="Framework Procedures" parent="288">
+		                <sections>
+		                    <section id="289" number="11.3.1" name="Constructing a Proxy and Handler" parent="289" />
+		                    <section id="290" number="11.3.2" name="Built-in Handlers" parent="290" />
+		                    <section id="291" number="11.3.3" name="Finding Built-in Handlers" parent="291" />
+		                    <section id="292" number="11.3.4" name="Protected Methods and Proxy" parent="292" />
+		                    <section id="293" number="11.3.5" name="Stream Handlers that use java.net.Proxy" parent="293" />
+		                </sections>
+		            </section>
+		            <section id="294" number="11.4" name="Providing a New Scheme" parent="294" />
+		            <section id="295" number="11.5" name="Providing a Content Handler" parent="295" />
+		            <section id="296" number="11.6" name="Security Considerations" parent="296" />
+		            <section id="297" number="11.7" name="Changes 4.1" parent="297" />
+		            <section id="298" number="11.8" name="org.osgi.service.url" parent="298">
+		                <sections>
+		                    <section id="299" number="11.8.1" name="Summary" parent="299" />
+		                    <section id="300" number="11.8.2" name="public abstract class AbstractURLStreamHandlerService extends URLStreamHandler implements ..." parent="300" />
+		                    <section id="301" number="11.8.3" name="public interface URLConstants" parent="301" />
+		                    <section id="302" number="11.8.4" name="public interface URLStreamHandlerService" parent="302" />
+		                    <section id="303" number="11.8.5" name="public interface URLStreamHandlerSetter" parent="303" />
+		                </sections>
+		            </section>
+		            <section id="304" number="11.9" name="References" parent="304" />
+		        </sections>
+		    </section>
+		</sections>
+    </version>
+    <version name="4.2" id="42">
+		<sections>
+		    <section id="12" number="2" name="Security Layer" parent="12">
+		        <sections>
+		            <section id="13" number="2.1" name="Introduction" parent="13">
+		                <sections>
+		                    <section id="14" number="2.1.1" name="Essentials" parent="14" />
+		                </sections>
+		            </section>
+		            <section id="15" number="2.2" name="Security Overview" parent="15">
+		                <sections>
+		                    <section id="16" number="2.2.1" name="Code Authentication" parent="16" />
+		                    <section id="17" number="2.2.2" name="Optional Security" parent="17" />
+		                </sections>
+		            </section>
+		            <section id="18" number="2.3" name="Digitally Signed JAR Files" parent="18">
+		                <sections>
+		                    <section id="19" number="2.3.1" name="JAR Structure and Manifest" parent="19" />
+		                    <section id="20" number="2.3.2" name="Java JAR File Restrictions" parent="20" />
+		                    <section id="21" number="2.3.3" name="Valid Signature" parent="21" />
+		                    <section id="22" number="2.3.4" name="Signing Algorithms" parent="22" />
+		                    <section id="23" number="2.3.5" name="Certificates" parent="23" />
+		                    <section id="24" number="2.3.6" name="Distinguished Names" parent="24" />
+		                    <section id="25" number="2.3.7" name="Certificate Matching" parent="25" />
+		                </sections>
+		            </section>
+		            <section id="26" number="2.4" name="Permissions" parent="26">
+		                <sections>
+		                    <section id="27" number="2.4.1" name="Implied Permissions" parent="27" />
+		                    <section id="28" number="2.4.2" name="Filter Based Permissions" parent="28" />
+		                </sections>
+		            </section>
+		            <section id="29" number="2.5" name="Changes" parent="29" />
+		            <section id="30" number="2.6" name="References" parent="30" />
+		        </sections>
+		    </section>
+		    <section id="31" number="3" name="Module Layer" parent="31">
+		        <sections>
+		            <section id="32" number="3.1" name="Introduction" parent="32" />
+		            <section id="33" number="3.2" name="Bundles" parent="33">
+		                <sections>
+		                    <section id="34" number="3.2.1" name="Bundle Manifest Headers" parent="34" />
+		                    <section id="35" number="3.2.2" name="Custom Headers" parent="35" />
+		                    <section id="36" number="3.2.3" name="Header Value Syntax" parent="36" />
+		                    <section id="37" number="3.2.4" name="Common Header Syntax" parent="37" />
+		                    <section id="38" number="3.2.5" name="Version" parent="38" />
+		                    <section id="39" number="3.2.6" name="Version Ranges" parent="39" />
+		                    <section id="40" number="3.2.7" name="Filter Syntax" parent="40" />
+		                </sections>
+		            </section>
+		            <section id="41" number="3.3" name="Execution Environment" parent="41">
+		                <sections>
+		                    <section id="42" number="3.3.1" name="Naming of Execution Environments" parent="42" />
+		                </sections>
+		            </section>
+		            <section id="43" number="3.4" name="Class Loading Architecture" parent="43">
+		                <sections>
+		                    <section id="44" number="3.4.1" name="Resolving" parent="44" />
+		                </sections>
+		            </section>
+		            <section id="45" number="3.5" name="Resolving Metadata" parent="45">
+		                <sections>
+		                    <section id="46" number="3.5.1" name="Bundle-ManifestVersion" parent="46" />
+		                    <section id="47" number="3.5.2" name="Bundle-SymbolicName" parent="47" />
+		                    <section id="48" number="3.5.3" name="Bundle-Version" parent="48" />
+		                    <section id="49" number="3.5.4" name="Import-Package Header" parent="49" />
+		                    <section id="50" number="3.5.5" name="Export-Package" parent="50" />
+		                    <section id="51" number="3.5.6" name="Exporting and Importing a Package" parent="51" />
+		                    <section id="52" number="3.5.7" name="Interpretation of Legacy Bundles" parent="52" />
+		                </sections>
+		            </section>
+		            <section id="53" number="3.6" name="Constraint Solving" parent="53">
+		                <sections>
+		                    <section id="54" number="3.6.1" name="Diagrams and Syntax" parent="54" />
+		                    <section id="55" number="3.6.2" name="Version Matching" parent="55" />
+		                    <section id="56" number="3.6.3" name="Optional Packages" parent="56" />
+		                    <section id="57" number="3.6.4" name="Package Constraints" parent="57" />
+		                    <section id="58" number="3.6.5" name="Attribute Matching" parent="58" />
+		                    <section id="59" number="3.6.6" name="Mandatory Attributes" parent="59" />
+		                    <section id="60" number="3.6.7" name="Class Filtering" parent="60" />
+		                    <section id="61" number="3.6.8" name="Provider Selection" parent="61" />
+		                </sections>
+		            </section>
+		            <section id="62" number="3.7" name="Resolving Process" parent="62" />
+		            <section id="63" number="3.8" name="Runtime Class Loading" parent="63">
+		                <sections>
+		                    <section id="64" number="3.8.1" name="Bundle Class Path" parent="64" />
+		                    <section id="65" number="3.8.2" name="Dynamic Import Package" parent="65" />
+		                    <section id="66" number="3.8.3" name="Parent Delegation" parent="66" />
+		                    <section id="67" number="3.8.4" name="Overall Search Order" parent="67" />
+		                    <section id="68" number="3.8.5" name="Parent Class Loader" parent="68" />
+		                    <section id="69" number="3.8.6" name="Resource Loading" parent="69" />
+		                    <section id="70" number="3.8.7" name="Bundle Cycles" parent="70" />
+		                    <section id="71" number="3.8.8" name="Code Executed Before Started" parent="71" />
+		                    <section id="72" number="3.8.9" name="Finding an Object’s Bundle" parent="72" />
+		                </sections>
+		            </section>
+		            <section id="73" number="3.9" name="Loading Native Code Libraries" parent="73">
+		                <sections>
+		                    <section id="74" number="3.9.1" name="Native Code Algorithm" parent="74" />
+		                    <section id="75" number="3.9.2" name="Considerations Using Native Libraries" parent="75" />
+		                </sections>
+		            </section>
+		            <section id="76" number="3.10" name="Localization" parent="76">
+		                <sections>
+		                    <section id="77" number="3.10.1" name="Finding Localization Entries" parent="77" />
+		                    <section id="78" number="3.10.2" name="Manifest Localization" parent="78" />
+		                </sections>
+		            </section>
+		            <section id="79" number="3.11" name="Bundle Validity" parent="79" />
+		            <section id="80" number="3.12" name="Requiring Bundles" parent="80">
+		                <sections>
+		                    <section id="81" number="3.12.1" name="Require-Bundle" parent="81" />
+		                    <section id="82" number="3.12.2" name="Split Package Compatibility" parent="82" />
+		                    <section id="83" number="3.12.3" name="Issues With Requiring Bundles" parent="83" />
+		                </sections>
+		            </section>
+		            <section id="84" number="3.13" name="Fragment Bundles" parent="84">
+		                <sections>
+		                    <section id="85" number="3.13.1" name="Fragment-Host" parent="85" />
+		                    <section id="86" number="3.13.2" name="Fragments During Runtime" parent="86" />
+		                    <section id="87" number="3.13.3" name="Illegal Manifest Header for Fragment Bundles" parent="87" />
+		                </sections>
+		            </section>
+		            <section id="88" number="3.14" name="Extension Bundles" parent="88">
+		                <sections>
+		                    <section id="89" number="3.14.1" name="Illegal Manifest Headers for Extension Bundles" parent="89" />
+		                    <section id="90" number="3.14.2" name="Class Path Treatment" parent="90" />
+		                    <section id="91" number="3.14.3" name="Optionality Boot Class Path Extension" parent="91" />
+		                </sections>
+		            </section>
+		            <section id="92" number="3.15" name="Security" parent="92">
+		                <sections>
+		                    <section id="93" number="3.15.1" name="Extension Bundles" parent="93" />
+		                    <section id="94" number="3.15.2" name="Bundle Permission" parent="94" />
+		                    <section id="95" number="3.15.3" name="Package Permission" parent="95" />
+		                    <section id="96" number="3.15.4" name="Resource Permissions" parent="96" />
+		                    <section id="97" number="3.15.5" name="Permission Checks" parent="97" />
+		                </sections>
+		            </section>
+		            <section id="98" number="3.16" name="Changes" parent="98" />
+		            <section id="99" number="3.17" name="References" parent="99" />
+		        </sections>
+		    </section>
+		    <section id="100" number="4" name="Life Cycle Layer" parent="100">
+		        <sections>
+		            <section id="101" number="4.1" name="Introduction" parent="101">
+		                <sections>
+		                    <section id="102" number="4.1.1" name="Essentials" parent="102" />
+		                    <section id="103" number="4.1.2" name="Entities" parent="103" />
+		                </sections>
+		            </section>
+		            <section id="104" number="4.2" name="Frameworks" parent="104">
+		                <sections>
+		                    <section id="105" number="4.2.1" name="Launching and Controlling a Framework" parent="105" />
+		                    <section id="106" number="4.2.2" name="Launching Properties" parent="106" />
+		                    <section id="107" number="4.2.3" name="Life Cycle of a Framework" parent="107" />
+		                    <section id="108" number="4.2.4" name="Initializing the Framework" parent="108" />
+		                    <section id="109" number="4.2.5" name="Starting the Framework" parent="109" />
+		                    <section id="110" number="4.2.6" name="Stopping a Framework" parent="110" />
+		                    <section id="111" number="4.2.7" name="Embedding a Framework" parent="111" />
+		                    <section id="112" number="4.2.8" name="Daemon Threads" parent="112" />
+		                    <section id="113" number="4.2.9" name="Java Service Provider Configuration Support" parent="113" />
+		                </sections>
+		            </section>
+		            <section id="114" number="4.3" name="Bundles" parent="114" />
+		            <section id="115" number="4.4" name="The Bundle Object" parent="115">
+		                <sections>
+		                    <section id="116" number="4.4.1" name="Bundle Identifiers" parent="116" />
+		                    <section id="117" number="4.4.2" name="Bundle State" parent="117" />
+		                    <section id="118" number="4.4.3" name="Installing Bundles" parent="118" />
+		                    <section id="119" number="4.4.4" name="Resolving Bundles" parent="119" />
+		                    <section id="120" number="4.4.5" name="Starting Bundles" parent="120" />
+		                    <section id="121" number="4.4.6" name="Activation" parent="121" />
+		                    <section id="122" number="4.4.7" name="Stopping Bundles" parent="122" />
+		                    <section id="123" number="4.4.8" name="Deactivation" parent="123" />
+		                    <section id="124" number="4.4.9" name="Updating Bundles" parent="124" />
+		                    <section id="125" number="4.4.10" name="Uninstalling Bundles" parent="125" />
+		                    <section id="126" number="4.4.11" name="Detecting Bundle Changes" parent="126" />
+		                    <section id="127" number="4.4.12" name="Retrieving Manifest Headers" parent="127" />
+		                    <section id="128" number="4.4.13" name="Loading Classes" parent="128" />
+		                    <section id="129" number="4.4.14" name="Access to Resources" parent="129" />
+		                    <section id="130" number="4.4.15" name="Permissions of a Bundle" parent="130" />
+		                    <section id="131" number="4.4.16" name="Access to a Bundle’s Bundle Context" parent="131" />
+		                </sections>
+		            </section>
+		            <section id="132" number="4.5" name="The Bundle Context" parent="132">
+		                <sections>
+		                    <section id="133" number="4.5.1" name="Getting Bundle Information" parent="133" />
+		                    <section id="134" number="4.5.2" name="Persistent Storage" parent="134" />
+		                    <section id="135" number="4.5.3" name="Environment Properties" parent="135" />
+		                </sections>
+		            </section>
+		            <section id="136" number="4.6" name="The System Bundle" parent="136">
+		                <sections>
+		                    <section id="137" number="4.6.1" name="System Bundle Headers" parent="137" />
+		                </sections>
+		            </section>
+		            <section id="138" number="4.7" name="Events" parent="138">
+		                <sections>
+		                    <section id="139" number="4.7.1" name="Listeners" parent="139" />
+		                    <section id="140" number="4.7.2" name="Delivering Events" parent="140" />
+		                    <section id="141" number="4.7.3" name="Synchronization Pitfalls" parent="141" />
+		                </sections>
+		            </section>
+		            <section id="142" number="4.8" name="Security" parent="142">
+		                <sections>
+		                    <section id="143" number="4.8.1" name="Admin Permission" parent="143" />
+		                    <section id="144" number="4.8.2" name="Privileged Callbacks" parent="144" />
+		                    <section id="145" number="4.8.3" name="Lazy Activation" parent="145" />
+		                </sections>
+		            </section>
+		            <section id="146" number="4.9" name="Changes" parent="146" />
+		            <section id="147" number="4.10" name="References" parent="147" />
+		        </sections>
+		    </section>
+		    <section id="148" number="5" name="Service Layer" parent="148">
+		        <sections>
+		            <section id="149" number="5.1" name="Introduction" parent="149">
+		                <sections>
+		                    <section id="150" number="5.1.1" name="Essentials" parent="150" />
+		                    <section id="151" number="5.1.2" name="Entities" parent="151" />
+		                </sections>
+		            </section>
+		            <section id="152" number="5.2" name="Services" parent="152">
+		                <sections>
+		                    <section id="153" number="5.2.1" name="Service References" parent="153" />
+		                    <section id="154" number="5.2.2" name="Service Interfaces" parent="154" />
+		                    <section id="155" number="5.2.3" name="Registering Services" parent="155" />
+		                    <section id="156" number="5.2.4" name="Early Need for ServiceRegistration Object" parent="156" />
+		                    <section id="157" number="5.2.5" name="Service Properties" parent="157" />
+		                    <section id="158" number="5.2.6" name="Persistent Identifier (PID)" parent="158" />
+		                    <section id="159" number="5.2.7" name="Locating Services" parent="159" />
+		                    <section id="160" number="5.2.8" name="Getting Service Properties" parent="160" />
+		                    <section id="161" number="5.2.9" name="Getting Service Objects" parent="161" />
+		                    <section id="162" number="5.2.10" name="Information About Services" parent="162" />
+		                    <section id="163" number="5.2.11" name="Service Exceptions" parent="163" />
+		                    <section id="164" number="5.2.12" name="Services and Concurrency" parent="164" />
+		                </sections>
+		            </section>
+		            <section id="165" number="5.3" name="Service Events" parent="165">
+		                <sections>
+		                    <section id="166" number="5.3.1" name="Service Event Types" parent="166" />
+		                </sections>
+		            </section>
+		            <section id="167" number="5.4" name="Stale References" parent="167" />
+		            <section id="168" number="5.5" name="Filters" parent="168" />
+		            <section id="169" number="5.6" name="Service Factory" parent="169" />
+		            <section id="170" number="5.7" name="Releasing Services" parent="170" />
+		            <section id="171" number="5.8" name="Unregistering Services" parent="171" />
+		            <section id="172" number="5.9"
+		                name="Multiple Version Export Considerations" parent="172">
+		                <sections>
+		                    <section id="173" number="5.9.1" name="Service Registry" parent="173" />
+		                    <section id="174" number="5.9.2" name="Service Events" parent="174" />
+		                </sections>
+		            </section>
+		            <section id="175" number="5.10" name="Security" parent="175">
+		                <sections>
+		                    <section id="176" number="5.10.1" name="Service Permission" parent="176" />
+		                </sections>
+		            </section>
+		            <section id="177" number="5.11" name="Changes" parent="177" />
+		        </sections>
+		    </section>
+		    <section id="178" number="6" name="Framework API" parent="178">
+		        <sections>
+		            <section id="179" number="6.1" name="org.osgi.framework" parent="179">
+		                <sections>
+		                    <section id="180" number="6.1.1" name="Summary" parent="180" />
+		                    <section id="181" number="6.1.2" name="public final class AdminPermission extends BasicPermission" parent="181" />
+		                    <section id="182" number="6.1.3" name="public interface AllServiceListener extends ServiceListener" parent="182" />
+		                    <section id="183" number="6.1.4" name="public interface Bundle" parent="183" />
+		                    <section id="184" number="6.1.5" name="public interface BundleActivator" parent="184" />
+		                    <section id="185" number="6.1.6" name="public interface BundleContext" parent="185" />
+		                    <section id="186" number="6.1.7" name="public class BundleEvent extends EventObject" parent="186" />
+		                    <section id="187" number="6.1.8" name="public class BundleException extends Exception" parent="187" />
+		                    <section id="188" number="6.1.9" name="public interface BundleListener extends EventListener" parent="188" />
+		                    <section id="189" number="6.1.10" name="public final class BundlePermission extends BasicPermission" parent="189" />
+		                    <section id="190" number="6.1.11" name="public interface BundleReference" parent="190" />
+		                    <section id="191" number="6.1.12" name="public interface Configurable" parent="191" />
+		                    <section id="192" number="6.1.13" name="public interface Constants" parent="192" />
+		                    <section id="193" number="6.1.14" name="public interface Filter" parent="193" />
+		                    <section id="194" number="6.1.15" name="public class FrameworkEvent extends EventObject" parent="194" />
+		                    <section id="195" number="6.1.16" name="public interface FrameworkListener extends EventListener" parent="195" />
+		                    <section id="196" number="6.1.17" name="public class FrameworkUtil" parent="196" />
+		                    <section id="197" number="6.1.18" name="public class InvalidSyntaxException extends Exception" parent="197" />
+		                    <section id="198" number="6.1.19" name="public final class PackagePermission extends BasicPermission" parent="198" />
+		                    <section id="199" number="6.1.20" name="public class ServiceEvent extends EventObject" parent="199" />
+		                    <section id="200" number="6.1.21" name="public class ServiceException extends RuntimeException" parent="200" />
+		                    <section id="201" number="6.1.22" name="public interface ServiceFactory" parent="201" />
+		                    <section id="202" number="6.1.23" name="public interface ServiceListener extends EventListener" parent="202" />
+		                    <section id="203" number="6.1.24" name="public final class ServicePermission extends BasicPermission" parent="203" />
+		                    <section id="204" number="6.1.25" name="public interface ServiceReference extends Comparable" parent="204" />
+		                    <section id="205" number="6.1.26" name="public interface ServiceRegistration" parent="205" />
+		                    <section id="206" number="6.1.27" name="public interface SynchronousBundleListener extends BundleListener" parent="206" />
+		                    <section id="207" number="6.1.28" name="public class Version implements Comparable" parent="207" />
+		                </sections>
+		            </section>
+		            <section id="208" number="6.2" name="org.osgi.framework.launch" parent="208">
+		                <sections>
+		                    <section id="209" number="6.2.1" name="Summary" parent="209" />
+		                    <section id="210" number="6.2.2" name="public interface Framework extends Bundle" parent="210" />
+		                    <section id="211" number="6.2.3" name="public interface FrameworkFactory" parent="211" />
+		                </sections>
+		            </section>
+		        </sections>
+		    </section>
+		    <section id="212" number="7" name="Package Admin Service Specification"
+		        parent="212">
+		        <sections>
+		            <section id="213" number="7.1" name="Introduction" parent="213">
+		                <sections>
+		                    <section id="214" number="7.1.1" name="Essentials" parent="214" />
+		                    <section id="215" number="7.1.2" name="Entities" parent="215" />
+		                    <section id="216" number="7.1.3" name="Operation" parent="216" />
+		                </sections>
+		            </section>
+		            <section id="217" number="7.2" name="Package Admin" parent="217">
+		                <sections>
+		                    <section id="218" number="7.2.1" name="Package Sharing" parent="218" />
+		                    <section id="219" number="7.2.2" name="Bundle Information" parent="219" />
+		                    <section id="220" number="7.2.3" name="Fragments and Required Bundles" parent="220" />
+		                    <section id="221" number="7.2.4" name="Exported Package" parent="221" />
+		                    <section id="222" number="7.2.5" name="Refreshing Packages" parent="222" />
+		                </sections>
+		            </section>
+		            <section id="223" number="7.3" name="Security" parent="223" />
+		            <section id="224" number="7.4" name="Changes" parent="224" />
+		            <section id="225" number="7.5" name="org.osgi.service.packageadmin" parent="225">
+		                <sections>
+		                    <section id="226" number="7.5.1" name="Summary" parent="226" />
+		                    <section id="227" number="7.5.2" name="public interface ExportedPackage" parent="227" />
+		                    <section id="228" number="7.5.3" name="public interface PackageAdmin" parent="228" />
+		                    <section id="229" number="7.5.4" name="public interface RequiredBundle" parent="229" />
+		                </sections>
+		            </section>
+		        </sections>
+		    </section>
+		    <section id="230" number="8" name="Start Level Service Specification"
+		        parent="230">
+		        <sections>
+		            <section id="231" number="8.1" name="Introduction" parent="231">
+		                <sections>
+		                    <section id="232" number="8.1.1" name="Essentials" parent="232" />
+		                    <section id="233" number="8.1.2" name="Entities" parent="233" />
+		                </sections>
+		            </section>
+		            <section id="234" number="8.2" name="Start Level Service" parent="234">
+		                <sections>
+		                    <section id="235" number="8.2.1" name="The Concept of a Start Level" parent="235" />
+		                    <section id="236" number="8.2.2" name="Changing the Active Start Level" parent="236" />
+		                    <section id="237" number="8.2.3" name="Startup Sequence" parent="237" />
+		                    <section id="238" number="8.2.4" name="Shutdown Sequence" parent="238" />
+		                    <section id="239" number="8.2.5" name="Changing a Bundle’s Start Level" parent="239" />
+		                    <section id="240" number="8.2.6" name="Starting a Bundle" parent="240" />
+		                    <section id="241" number="8.2.7" name="Exceptions in the Bundle Activator" parent="241" />
+		                    <section id="242" number="8.2.8" name="System Bundle" parent="242" />
+		                </sections>
+		            </section>
+		            <section id="243" number="8.3" name="Compatibility Mode" parent="243" />
+		            <section id="244" number="8.4" name="Example Applications" parent="244">
+		                <sections>
+		                    <section id="245" number="8.4.1" name="Safe Mode Startup Scheme" parent="245" />
+		                    <section id="246" number="8.4.2" name="Splash Screen Startup Scheme" parent="246" />
+		                </sections>
+		            </section>
+		            <section id="247" number="8.5" name="Security" parent="247" />
+		            <section id="248" number="8.6" name="org.osgi.service.startlevel" parent="248">
+		                <sections>
+		                    <section id="249" number="8.6.1" name="public interface StartLevel" parent="249" />
+		                </sections>
+		            </section>
+		        </sections>
+		    </section>
+		    <section id="250" number="9"
+		        name="Conditional Permission Admin Specification" parent="250">
+		        <sections>
+		            <section id="251" number="9.1" name="Introduction" parent="251">
+		                <sections>
+		                    <section id="252" number="9.1.1" name="Essentials" parent="252" />
+		                    <section id="253" number="9.1.2" name="Entities" parent="253" />
+		                    <section id="254" number="9.1.3" name="Synopsis" parent="254" />
+		                </sections>
+		            </section>
+		            <section id="255" number="9.2" name="Permission Management Model" parent="255">
+		                <sections>
+		                    <section id="256" number="9.2.1" name="Local Permissions" parent="256" />
+		                    <section id="257" number="9.2.2" name="Open Deployment Channels" parent="257" />
+		                    <section id="258" number="9.2.3" name="Delegation" parent="258" />
+		                    <section id="259" number="9.2.4" name="Grouping" parent="259" />
+		                    <section id="260" number="9.2.5" name="Typical Example" parent="260" />
+		                </sections>
+		            </section>
+		            <section id="261" number="9.3" name="Effective Permissions" parent="261" />
+		            <section id="262" number="9.4" name="Conditional Permissions" parent="262">
+		                <sections>
+		                    <section id="263" number="9.4.1" name="Encoding versus Instantiation" parent="263" />
+		                </sections>
+		            </section>
+		            <section id="264" number="9.5" name="Conditions" parent="264" />
+		            <section id="265" number="9.6" name="The Permission Check" parent="265">
+		                <sections>
+		                    <section id="266" number="9.6.1" name="Security Manager checkPermission Method" parent="266" />
+		                    <section id="267" number="9.6.2" name="Bundle Protection Domain implies Method" parent="267" />
+		                    <section id="268" number="9.6.3" name="Postponed Evaluation" parent="268" />
+		                    <section id="269" number="9.6.4" name="Example" parent="269" />
+		                    <section id="270" number="9.6.5" name="Using the Access Control Context Directly" parent="270" />
+		                </sections>
+		            </section>
+		            <section id="271" number="9.7" name="Permission Management" parent="271">
+		                <sections>
+		                    <section id="272" number="9.7.1" name="Default Permissions" parent="272" />
+		                </sections>
+		            </section>
+		            <section id="273" number="9.8" name="Implementing Conditions" parent="273" />
+		            <section id="274" number="9.9" name="Standard Conditions" parent="274">
+		                <sections>
+		                    <section id="275" number="9.9.1" name="Bundle Signer Condition" parent="275" />
+		                    <section id="276" number="9.9.2" name="Bundle Location Condition" parent="276" />
+		                </sections>
+		            </section>
+		            <section id="277" number="9.10" name="Bundle Permission Resource" parent="277">
+		                <sections>
+		                    <section id="278" number="9.10.1" name="Removing the Bundle Permission Resource" parent="278" />
+		                </sections>
+		            </section>
+		            <section id="279" number="9.11" name="Relation to Permission Admin" parent="279" />
+		            <section id="280" number="9.12" name="Implementation Issues" parent="280">
+		                <sections>
+		                    <section id="281" number="9.12.1" name="Optimizing Immutable Conditions" parent="281" />
+		                    <section id="282" number="9.12.2" name="Optimizing the Permission Check" parent="282" />
+		                    <section id="283" number="9.12.3" name="Using Permission Checks in Conditions" parent="283" />
+		                    <section id="284" number="9.12.4" name="Concurrency" parent="284" />
+		                    <section id="285" number="9.12.5" name="Class Loading" parent="285" />
+		                    <section id="286" number="9.12.6" name="Condition Life Cycle" parent="286" />
+		                </sections>
+		            </section>
+		            <section id="287" number="9.13" name="Security" parent="287">
+		                <sections>
+		                    <section id="288" number="9.13.1" name="Service Registry Security" parent="288" />
+		                </sections>
+		            </section>
+		            <section id="289" number="9.14" name="Changes" parent="289" />
+		            <section id="290" number="9.15" name="org.osgi.service.condpermadmin" parent="290">
+		                <sections>
+		                    <section id="291" number="9.15.1" name="Summary" parent="291" />
+		                    <section id="292" number="9.15.2" name="public class BundleLocationCondition" parent="292" />
+		                    <section id="293" number="9.15.3" name="public class BundleSignerCondition" parent="293" />
+		                    <section id="294" number="9.15.4" name="public interface Condition" parent="294" />
+		                    <section id="295" number="9.15.5" name="public interface ConditionalPermissionAdmin" parent="295" />
+		                    <section id="296" number="9.15.6" name="public interface ConditionalPermissionInfo" parent="296" />
+		                    <section id="297" number="9.15.7" name="public interface ConditionalPermissionUpdate" parent="297" />
+		                    <section id="298" number="9.15.8" name="public class ConditionInfo" parent="298" />
+		                </sections>
+		            </section>
+		            <section id="299" number="9.16" name="References" parent="299" />
+		        </sections>
+		    </section>
+		    <section id="300" number="10"
+		        name="Permission Admin Service Specification" parent="300">
+		        <sections>
+		            <section id="301" number="10.1" name="Introduction" parent="301">
+		                <sections>
+		                    <section id="302" number="10.1.1" name="Essentials" parent="302" />
+		                    <section id="303" number="10.1.2" name="Entities" parent="303" />
+		                    <section id="304" number="10.1.3" name="Operation" parent="304" />
+		                </sections>
+		            </section>
+		            <section id="305" number="10.2" name="Permission Admin service" parent="305">
+		                <sections>
+		                    <section id="306" number="10.2.1" name="File Permission for Relative Path Names" parent="306" />
+		                </sections>
+		            </section>
+		            <section id="307" number="10.3" name="Security" parent="307" />
+		            <section id="308" number="10.4" name="org.osgi.service.permissionadmin" parent="308">
+		                <sections>
+		                    <section id="309" number="10.4.1" name="Summary" parent="309" />
+		                    <section id="310" number="10.4.2" name="public interface PermissionAdmin" parent="310" />
+		                    <section id="311" number="10.4.3" name="public class PermissionInfo" parent="311" />
+		                </sections>
+		            </section>
+		        </sections>
+		    </section>
+		    <section id="312" number="11" name="URL Handlers Service Specification"
+		        parent="312">
+		        <sections>
+		            <section id="313" number="11.1" name="Introduction" parent="313">
+		                <sections>
+		                    <section id="314" number="11.1.1" name="Essentials" parent="314" />
+		                    <section id="315" number="11.1.2" name="Entities" parent="315" />
+		                    <section id="316" number="11.1.3" name="Operation" parent="316" />
+		                </sections>
+		            </section>
+		            <section id="317" number="11.2" name="Factories in java.net" parent="317" />
+		            <section id="318" number="11.3" name="Framework Procedures" parent="318">
+		                <sections>
+		                    <section id="319" number="11.3.1" name="Constructing a Proxy and Handler" parent="319" />
+		                    <section id="320" number="11.3.2" name="Built-in Handlers" parent="320" />
+		                    <section id="321" number="11.3.3" name="Finding Built-in Handlers" parent="321" />
+		                    <section id="322" number="11.3.4" name="Protected Methods and Proxy" parent="322" />
+		                    <section id="323" number="11.3.5" name="Stream Handlers that use java.net.Proxy" parent="323" />
+		                </sections>
+		            </section>
+		            <section id="324" number="11.4" name="Providing a New Scheme" parent="324" />
+		            <section id="325" number="11.5" name="Providing a Content Handler" parent="325" />
+		            <section id="326" number="11.6" name="Security Considerations" parent="326" />
+		            <section id="327" number="11.7" name="Changes" parent="327" />
+		            <section id="328" number="11.8" name="org.osgi.service.url" parent="328">
+		                <sections>
+		                    <section id="329" number="11.8.1" name="Summary" parent="329" />
+		                    <section id="330" number="11.8.2" name="public abstract class AbstractURLStreamHandlerService extends URLStreamHandler implements ..." parent="330" />
+		                    <section id="331" number="11.8.3" name="public interface URLConstants" parent="331" />
+		                    <section id="332" number="11.8.4" name="public interface URLStreamHandlerService" parent="332" />
+		                    <section id="333" number="11.8.5" name="public interface URLStreamHandlerSetter" parent="333" />
+		                </sections>
+		            </section>
+		            <section id="334" number="11.9" name="References" parent="334" />
+		        </sections>
+		    </section>
+		    <section id="335" number="12" name="Service Hooks Specification"
+		        parent="335">
+		        <sections>
+		            <section id="336" number="12.1" name="Introduction" parent="336">
+		                <sections>
+		                    <section id="337" number="12.1.1" name="Essentials" parent="337" />
+		                    <section id="338" number="12.1.2" name="Entities" parent="338" />
+		                    <section id="339" number="12.1.3" name="Synopsis" parent="339" />
+		                </sections>
+		            </section>
+		            <section id="340" number="12.2" name="Service Hooks" parent="340" />
+		            <section id="341" number="12.3" name="Usage Scenarios" parent="341">
+		                <sections>
+		                    <section id="342" number="12.3.1" name="Proxying" parent="342" />
+		                    <section id="343" number="12.3.2" name="Providing a Service on Demand" parent="343" />
+		                </sections>
+		            </section>
+		            <section id="344" number="12.4" name="Event Hook" parent="344" />
+		            <section id="345" number="12.5" name="Find Hook" parent="345" />
+		            <section id="346" number="12.6" name="Listener Hook" parent="346">
+		                <sections>
+		                    <section id="347" number="12.6.1" name="Filter" parent="347" />
+		                </sections>
+		            </section>
+		            <section id="348" number="12.7" name="Architectural Notes" parent="348">
+		                <sections>
+		                    <section id="349" number="12.7.1" name="Remove Only" parent="349" />
+		                    <section id="350" number="12.7.2" name="Ordinary Services" parent="350" />
+		                    <section id="351" number="12.7.3" name="Ordering" parent="351" />
+		                    <section id="352" number="12.7.4" name="Providing the Service Object" parent="352" />
+		                    <section id="353" number="12.7.5" name="Multi Threading" parent="353" />
+		                </sections>
+		            </section>
+		            <section id="354" number="12.8" name="Security" parent="354" />
+		            <section id="355" number="12.9" name="org.osgi.framework.hooks.service" parent="355">
+		                <sections>
+		                    <section id="356" number="12.9.1" name="Summary" parent="356" />
+		                    <section id="357" number="12.9.2" name="public interface EventHook" parent="357" />
+		                    <section id="358" number="12.9.3" name="public interface FindHook" parent="358" />
+		                    <section id="359" number="12.9.4" name="public interface ListenerHook" parent="359" />
+		                    <section id="360" number="12.9.5" name="public static interface ListenerHook.ListenerInfo" parent="360" />
+		                </sections>
+		            </section>
+		        </sections>
+		    </section>
+		</sections>
+    </version>
+</versions>

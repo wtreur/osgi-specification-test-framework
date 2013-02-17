@@ -1,0 +1,11 @@
+.ant-targets-build.xml
+
+.classpath
+.project
+.settings
+.idea
+*.iml
+
+build
+classes
+last.test.build
